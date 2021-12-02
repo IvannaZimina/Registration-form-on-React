@@ -1,7 +1,7 @@
 .headerContainer {
     width: 100%;
     height: 75px;
-    background-color: silver;
+    background-color: rgb(221, 217, 217);
 
     .NameNav {
 
@@ -10,6 +10,18 @@
 
             .homeImg {
                 width: 60px;
+                margin-right: 30px;
+                padding: 0;
+            }
+
+            .linkText {
+                padding: 20px;
+                text-decoration: none;
+                font-weight: 600;
+
+                &:hover {
+                    color:violet;
+                }
             }
         }
     }
