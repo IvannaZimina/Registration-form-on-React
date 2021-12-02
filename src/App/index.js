@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 import Login from '../conteiners/Login';
 import SignUp from '../conteiners/SignUp';
 import ForgotPwd from '../conteiners/ForgotPwd';
-
+import HomePage from '../conteiners/HomePage';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       
       <div className={style.centerContext}>
         <Routes>
-          {/* <Route exac path='/' element={<HomePage />} /> */}
+          <Route exac path='/' element={<HomePage />} />
           <Route exac path='/login' element={<Login />} />
           <Route exac path='/signUp' element={<SignUp />} />
           <Route exac path='/forgotPass' element={<ForgotPwd />} />

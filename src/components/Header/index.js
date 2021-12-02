@@ -10,11 +10,9 @@ function Header() {
 
             <div className={style.NameNav}>
                 <nav className={style.Navlinks}>
-                    <NavLink to="/"> 
-                        <img src={mandalorian} alt="" className={style.homeImg} />
-                    </NavLink>
-                    <NavLink to="/login"> Login </NavLink>
-                    <NavLink to="/signUp"> SignUp </NavLink>
+                    <NavLink to="/"><img src={mandalorian} alt="" className={style.homeImg} /></NavLink>
+                    <NavLink to="/login" className={style.linkText}> Login </NavLink>
+                    <NavLink to="/signUp" className={style.linkText}> SignUp </NavLink>
                 </nav>
             </div>
         </header>
