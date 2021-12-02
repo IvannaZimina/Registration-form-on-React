@@ -5,9 +5,9 @@ import style from './style.module.scss'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import Login from '../conteiners/Login';
-import SignUp from '../conteiners/SignUp';
-import ForgotPwd from '../conteiners/ForgotPwd';
+import Login from '../conteiners/LoginPage';
+import SignUp from '../conteiners/SignUpPage';
+import ForgotPwd from '../conteiners/ForgotPwdPage';
 import HomePage from '../conteiners/HomePage';
 
 function App() {

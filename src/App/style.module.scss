@@ -4,10 +4,17 @@
 
 .mainContainer {
     width: 100%;
+    background-image: url(./ice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(215, 250, 252, 0.281); 
+    background-blend-mode: soft-light;
 
     .centerContext {
         width: 90%;
+        min-height: 450px;
         margin: 0 auto;
-        padding-top: 10px;
+        padding-top: 110px;
+        overflow-y: auto;
     }
 }

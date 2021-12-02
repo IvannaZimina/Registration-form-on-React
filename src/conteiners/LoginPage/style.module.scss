@@ -1,0 +1,50 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.loginContainer {
+    width: 30%;
+    margin: 0 auto;
+    height: 230px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid rgb(238, 236, 236);
+    box-shadow: 0px 2px 4px 4px rgba(34, 60, 80, 0.15);
+    background-color: rgba(202, 244, 248, 0.822);
+
+    .inputField {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+        input {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid rgb(196, 193, 193);
+            border-radius: 5px;
+        }
+    }
+
+    .btnLogin {
+        width: 50%;
+        padding: 10px;
+        margin: 0 25%;
+        margin-bottom: 5%;
+        border: 1px solid rgb(196, 193, 193);
+        border-radius: 5px;
+        background-color: none;
+    }
+
+    .linkPwd {
+        width: 40%;
+        margin: 0 30%;
+        font-size: 12px;
+
+    }
+}
+
