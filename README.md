@@ -1,11 +1,11 @@
 ## Task
-Create login form, sign in form, recovery form on React in command of three people. Match components.
+create login form, sign-in form, recovery form on React in a team of three people with combining everything in one solution.
 
 ## Stack
 React.js, CSS
 
 ## Description
-Creating registration form with react components and using own styles.
+Creating registration form with react components and using own styles without functional options.
 
 ## Environment
 Clone repositore on your machine. Use npm install to add all dependencies in project and open web-app. 
